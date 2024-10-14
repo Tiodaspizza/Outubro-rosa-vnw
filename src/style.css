@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+}
+
+.container-principal {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  background-color: #FF69B4;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo a {
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-right: 40px;
+}
+
+nav a {
+  position: relative;
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #FFD9EC;
+  box-shadow: 0 0 5px #FFD9EC, 0 0 10px #FFD9EC;
+  transition: all 0.6s ease-in-out;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+nav a:hover {
+  color: #FFD9EC;
+  text-shadow: 0 0 5px #FFD9EC, 0 0 10px #FFD9EC;
+}
+
+nav a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  right: 0;
+  background-color: #FFD9EC;
+  box-shadow: 0 0 5px #FFD9EC, 0 0 10px #FFD9EC;
+  transition: all 0.6s ease-in-out;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+.sec1 {
+  background-color: #FFD9EC;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+h2 {
+  width: 40%;
+  font-weight: normal;
+  line-height: 2rem;
+}
+
+.sec2 {
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.sec3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #FFD9EC;
+  height: 400px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FF69B4;
+  height: 110px;
+}
+
+.social-medias {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  width: 10%;
+}
+
+.informations-student {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
